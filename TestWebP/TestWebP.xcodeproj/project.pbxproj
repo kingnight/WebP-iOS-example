@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		291A144F1D33956D00C49EAE /* WebviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 291A144E1D33956D00C49EAE /* WebviewController.m */; };
+		291A14521D339DD100C49EAE /* STADBasicUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 291A14511D339DD100C49EAE /* STADBasicUtil.m */; };
+		291A14561D33AF0500C49EAE /* STADGTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 291A14551D33AF0500C49EAE /* STADGTMBase64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		B62ADEF116A8335400C4FEB4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B62ADEF016A8335400C4FEB4 /* UIKit.framework */; };
 		B62ADEF316A8335400C4FEB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B62ADEF216A8335400C4FEB4 /* Foundation.framework */; };
 		B62ADEF516A8335400C4FEB4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B62ADEF416A8335400C4FEB4 /* CoreGraphics.framework */; };
@@ -33,6 +36,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		291A144D1D33956D00C49EAE /* WebviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebviewController.h; sourceTree = "<group>"; };
+		291A144E1D33956D00C49EAE /* WebviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebviewController.m; sourceTree = "<group>"; };
+		291A14501D339DD100C49EAE /* STADBasicUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STADBasicUtil.h; sourceTree = "<group>"; };
+		291A14511D339DD100C49EAE /* STADBasicUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STADBasicUtil.m; sourceTree = "<group>"; };
+		291A14541D33AF0500C49EAE /* STADGTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STADGTMBase64.h; sourceTree = "<group>"; };
+		291A14551D33AF0500C49EAE /* STADGTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STADGTMBase64.m; sourceTree = "<group>"; };
+		291A14571D33AF6600C49EAE /* STADGTMDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STADGTMDefines.h; sourceTree = "<group>"; };
 		B62ADEEC16A8335400C4FEB4 /* TestWebP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestWebP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B62ADEF016A8335400C4FEB4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B62ADEF216A8335400C4FEB4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -109,12 +119,19 @@
 		B62ADEF616A8335400C4FEB4 /* TestWebP */ = {
 			isa = PBXGroup;
 			children = (
+				291A14571D33AF6600C49EAE /* STADGTMDefines.h */,
+				291A14541D33AF0500C49EAE /* STADGTMBase64.h */,
+				291A14551D33AF0500C49EAE /* STADGTMBase64.m */,
+				291A14501D339DD100C49EAE /* STADBasicUtil.h */,
+				291A14511D339DD100C49EAE /* STADBasicUtil.m */,
 				B62ADEFF16A8335400C4FEB4 /* AppDelegate.h */,
 				B62ADF0016A8335400C4FEB4 /* AppDelegate.m */,
 				B62ADF0816A8335400C4FEB4 /* MainStoryboard_iPhone.storyboard */,
 				B62ADF0B16A8335400C4FEB4 /* MainStoryboard_iPad.storyboard */,
 				B62ADF0E16A8335400C4FEB4 /* ViewController.h */,
 				B62ADF0F16A8335400C4FEB4 /* ViewController.m */,
+				291A144D1D33956D00C49EAE /* WebviewController.h */,
+				291A144E1D33956D00C49EAE /* WebviewController.m */,
 				B62ADEF716A8335400C4FEB4 /* Supporting Files */,
 			);
 			path = TestWebP;
@@ -229,9 +246,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				291A14521D339DD100C49EAE /* STADBasicUtil.m in Sources */,
+				291A14561D33AF0500C49EAE /* STADGTMBase64.m in Sources */,
 				B62ADEFD16A8335400C4FEB4 /* main.m in Sources */,
 				B62ADF0116A8335400C4FEB4 /* AppDelegate.m in Sources */,
 				B62ADF1016A8335400C4FEB4 /* ViewController.m in Sources */,
+				291A144F1D33956D00C49EAE /* WebviewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
